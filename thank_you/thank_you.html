@@ -8,41 +8,46 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <style>
   body {
-    font-family: "Lato", sans-serif
+    font-family: "Lato", sans-serif;
+    margin: 0;
   }
   a {
     text-decoration: none; 
   }
+  #main {
+    height: calc(100vh - 170px);
+  }
 </style>
 <body>
+<div id="main">
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card w3-large">
+      <a href="../index/index.html">
+        <img src="shutter.png" width="40" height="40" style="float: left; margin: 5px 22px 0px 22px;">
+      </a>
+      <a href="../index/index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="../gallery/gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALLERY</a>
+      <a href="../about_us/about_us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+      <a href="../contact_us/contact_us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    </div>
+  </div>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card w3-large">
-    <a href="../index/index.html">
-      <img src="shutter.png" width="40" height="40" style="float: left; margin: 5px 22px 0px 22px;">
-    </a>
-    <a href="../index/index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="../gallery/gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALLERY</a>
-    <a href="../about_us/about_us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
-    <a href="../contact_us/contact_us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+  <!-- Page content -->
+  <div class="w3-content" style="max-width: 2000px; margin-top: 46px">
+    <div style="text-align: center;">
+      <img src="scene.jpg" width="100%">
+    </div>
+    <!-- Welcome Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide">THANK YOU</h2>
+    </div>
+  <!-- End Page Content -->
   </div>
-</div>
-
-<!-- Page content -->
-<div class="w3-content" style="max-width: 2000px; margin-top: 46px">
-  <div style="text-align: center;">
-    <img src="scene.jpg" width="100%">
-  </div>
-  <!-- Welcome Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
-    <h2 class="w3-wide">THANK YOU</h2>
-  </div>
-<!-- End Page Content -->
 </div>
 
 <!-- Footer -->
-<footer class="w3-padding-8 w3-small w3-black w3-bottom">
+<footer class="w3-padding-8 w3-small w3-black">
   <div class="w3-center w3-padding-16 w3-grey w3-padding-32">
     <a href="../index/index.html" class="w3-padding-large w3-medium">HOME</a>
     <a href="../gallery/gallery.html" class="w3-padding-large w3-medium">GALLERY</a>
